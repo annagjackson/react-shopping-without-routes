@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate-react-webpack",
+  "name": "react-shopping",
   "version": "0.1.1",
-  "description": "A webpack React starter",
+  "description": "A react shopping experience",
   "repository": "https://github.com/dev-academy-challenges/boilerplate-react-webpack.git",
   "main": "server/index.js",
   "scripts": {

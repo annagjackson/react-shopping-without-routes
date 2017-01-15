@@ -1,0 +1,29 @@
+* {
+  border: 1px solid;
+}
+
+.app {
+  border-color: red;
+}
+
+.header {
+  border-color: blue;
+}
+
+.content {
+  display: flex;
+  border-color: purple;
+}
+
+.categories {
+  margin-right: 20px;
+  border-color: green;
+}
+
+.nav {
+  border-color: yellow;
+}
+
+.footer {
+  border-color: blue;
+}

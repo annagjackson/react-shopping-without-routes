@@ -1,9 +1,21 @@
 import React from 'react'
 
+import Header from './Header'
+import Content from './Content'
+import Footer from './Footer'
+
 export default React.createClass({
-  render() {
+  pageState: {
+    activePage: 'details'
+  },
+
+  render () {
     return (
-      <h1>React development has begun!</h1>
+      <div className='app'>
+        <Header />
+        <Content pageState={this.pageState} />
+        <Footer />
+      </div>
     )
   }
 })
