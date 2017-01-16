@@ -1,4 +1,4 @@
-# react-shopping
+# react-shopping-without-routes
 
 ## Setup
 
@@ -6,7 +6,3 @@
 git clone git@github.com:dev-academy-challenges/boilerplate-react-webpack.git react-shopping
 npm install
 ```
-
-## Steps
-
-
