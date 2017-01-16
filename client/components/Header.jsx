@@ -4,7 +4,7 @@ export default React.createClass({
   render () {
     return (
       <div className='header'>
-        <p>header</p>
+        <h1>React Toy Store</h1>
       </div>
     )
   }

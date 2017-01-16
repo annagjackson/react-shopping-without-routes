@@ -19,7 +19,7 @@ export default React.createClass({
 
     return (
       <div className='content'>
-        <Categories />
+        <Categories categories={this.props.products.categories.map(category => category.name)} />
         { active }
       </div>
     )

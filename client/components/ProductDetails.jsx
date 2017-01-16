@@ -6,8 +6,10 @@ export default React.createClass({
   render () {
     return (
       <div className='product-details'>
-        <Nav />
-        <p>product details</p>
+        <Nav history={['home', this.props.category]} />
+        <h2>{this.props.name}</h2>
+        <p className='product-image'><img src='{this.props.image}' /></p>
+        <p>{this.props.description}</p>
       </div>
     )
   }

@@ -4,7 +4,7 @@ export default React.createClass({
   render () {
     return (
       <div className='footer'>
-        <p>footer</p>
+        <em>&copy; 2017 React Toy Store, Inc.</em>
       </div>
     )
   }
