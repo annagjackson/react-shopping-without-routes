@@ -1,29 +1,28 @@
-* {
-  border: 1px solid;
-}
-
-.app {
-  border-color: red;
-}
-
-.header {
-  border-color: blue;
-}
-
 .content {
   display: flex;
-  border-color: purple;
+  /* border: solid 1px purple; */
 }
 
 .categories {
+  min-width: 200px;
   margin-right: 20px;
-  border-color: green;
+  /* border: solid 1px green; */
 }
 
-.nav {
-  border-color: yellow;
+.categories ul {
+  padding-left: 0;
 }
 
-.footer {
-  border-color: blue;
+.categories li {
+  list-style: none;
+  margin-bottom: 8px;
 }
+
+.selected {
+  font-weight: bold;
+}
+
+.product-image img {
+  width: 250px;
+}
+
