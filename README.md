@@ -3,6 +3,6 @@
 ## Setup
 
 ```sh
-git clone git@github.com:dev-academy-challenges/boilerplate-react-webpack.git react-shopping
+git clone git@github.com:dev-academy-challenges/boilerplate-react-webpack.git react-shopping-without-routes
 npm install
 ```
